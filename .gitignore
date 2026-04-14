@@ -1,0 +1,64 @@
+# =====================
+# Python / Backend
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+venv/
+env/
+.venv/
+
+# Flask instance / cache
+instance/
+*.sqlite3
+
+# =====================
+# ML files (optional depending on use)
+# =====================
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# If you WANT to keep model.pkl in repo, remove this line for that file
+
+
+# =====================
+# Jupyter Notebook
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# Environment variables
+# =====================
+.env
+
+# =====================
+# Logs
+# =====================
+*.log
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Node / React
+# =====================
+node_modules/
+build/
+dist/
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =====================
+# VS Code
+# =====================
+.vscode/
