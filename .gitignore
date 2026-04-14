@@ -17,7 +17,6 @@ instance/
 # =====================
 # ML files (optional depending on use)
 # =====================
-*.pkl
 *.joblib
 *.h5
 *.model

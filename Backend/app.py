@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 CORS(app)
 
-BASE     = os.path.join(os.path.dirname(__file__), '..', 'outputs', 'models')
+BASE     = os.path.join(os.path.dirname(__file__), 'models')
 model    = joblib.load(os.path.join(BASE, 'best_model.pkl'))
 scaler   = joblib.load(os.path.join(BASE, 'scaler.pkl'))
 le_area  = joblib.load(os.path.join(BASE, 'le_area.pkl'))
